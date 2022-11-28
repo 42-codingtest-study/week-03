@@ -9,7 +9,7 @@ using namespace	std;
 int	ft_binary_search(int arr[], int n, int m_num)
 {
 	int	mid, start = 0, end = n;
-	while (1)
+	while (start <= end)
 	{
 		mid = ((start + end) / 2);
 		if (arr[mid] == m_num)
@@ -18,9 +18,8 @@ int	ft_binary_search(int arr[], int n, int m_num)
 			start = mid + 1;
 		else if (arr[mid] > m_num)
 			end = mid - 1;
-		if (start > end)
-			return (0);
 	}
+	return (0);
 }
 
 int	main()
