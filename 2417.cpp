@@ -1,3 +1,5 @@
+//정수 제곱근
+
 #include <bits/stdc++.h>//온갖 헤더 다때려박음
 #include <iostream>
 using namespace	std;
