@@ -33,7 +33,6 @@ def binary_search(target, flag):
     else:
         return end
     
-
 for _ in range(m):
     start, end = map(int, input().split())
     
