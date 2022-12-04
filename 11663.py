@@ -5,6 +5,7 @@
 import sys
 input = sys.stdin.readline
 
+# 입력값 받기
 n, m = map(int, input().split())
 dots = list(map(int, input().split()))
 
